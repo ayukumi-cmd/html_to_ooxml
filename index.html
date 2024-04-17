@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Mixed String Example</title>
+</head>
+<body>
+
+<p><strong>This is</strong> an example <em>of a mixed string.</em><span style="color: rgb(224, 62, 45);"> I want to <strong>work with</strong><span style="color: rgb(53, 152, 219);"><span style="text-decoration: underline;">OOXML.</span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="color: rgb(224, 62, 45); font-size: 18pt;"><span style="color: rgb(53, 152, 219);"><span style="text-decoration: underline;">A simple paragraph.</span> <span style="color: rgb(22, 145, 121);">Or so it seems.</span></span></span></p>
+<p><strong style="font-size: 0.2in;">What should happen if I have <span style="color: blue; font-size: 40px;">Span</span> inside strong's value</strong></p>
+<p>&nbsp;</p>
+<p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt;">One more paragraph with pt and cm font size</span></p>
+<p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">Lastly, lets add some spacing test cases</p>
+<p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 45pt 45pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: black; background: aqua;">Hello world</span></p>
+<p style="margin: 0in 7.5pt 8pt 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: white; background: purple;">Just right margin</span></p>
+<p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">Just left margin</p>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to OOXML</title>
+</head>
+<body>
+    <div id="html-content">
+        <p><strong>This is&nbsp;</strong>an example&nbsp;<em>of a mixed string.&nbsp;</em><span style="color: rgb(224, 62, 45);">I want to&nbsp;<strong>work with&nbsp;</strong><span style="color: rgb(53, 152, 219);"><span style="text-decoration: underline;">OOXML.</span></span></span></p>
+        <p>&nbsp;</p>
+        <p><span style="color: rgb(224, 62, 45); font-size: 18pt;"><span style="color: rgb(53, 152, 219);"><span style="text-decoration: underline;">A simple paragraph.</span>&nbsp;<span style="color: rgb(22, 145, 121);">Or so it seems.&nbsp;</span></span></span></p>
+        <p><strong style="font-size: 0.2in;">What should happen if I have <span style="color: blue; font-size: 40px;">Span</span> inside strong's value</strong></p>
+        <p>&nbsp;</p>
+        <p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 12.0pt;">One more paragraph with pt and cm font size</span></p>
+        <p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">Lastly, lets add some spacing test cases</p>
+        <p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+        <p style="margin: 0in 45pt 45pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: black; background: aqua;">Hello world</span></p>
+        <p style="margin: 0in 7.5pt 8pt 0in; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: white; background: purple;">Just right margin</span></p>
+        <p style="margin: 0in 0in 8pt; font-size: 11pt; font-family: Calibri, sans-serif;">Just left margin</p>
+        
+    </div>
+
+    <button onclick="convertToOOXML()">Convert to OOXML</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js"></script>
+    <script src="converter3.js"></script>
+</body>
+</html>
